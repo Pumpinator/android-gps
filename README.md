@@ -1,4 +1,4 @@
-![androidstudio](https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.m.wikipedia.org%2Fwiki%2FFile%3AAndroid_Studio_Logo_%25282023%2529.svg&psig=AOvVaw3vabV9jfFIiyNdVNbfPiFb&ust=1712515810525000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCICTrdGgroUDFQAAAAAdAAAAABAE)
+![androidstudio](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Android_Studio_icon_%282023%29.svg/640px-Android_Studio_icon_%282023%29.svg.png)
 
 # GPS App
 
