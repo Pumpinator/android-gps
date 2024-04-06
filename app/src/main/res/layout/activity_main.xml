@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.quetzalcode.gps.MainActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="32dp"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:background="#000000"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="Latitud:"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/txtLatitud"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:background="#DBD6DC"
+            android:backgroundTint="#000000"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="Longitud:"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/txtLongitud"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:background="#CCCBC8"
+            android:backgroundTint="#000000"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="Altitud:"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/txtAltitud"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/btnLocalizar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#7DCA62"
+            android:onClick="abrirOtra"
+            android:text="Localizar"
+            android:textColorHighlight="#612222"
+            android:textColorLink="#A15C5C" />
+
+        <Button
+            android:id="@+id/btnGmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FF8080"
+            android:onClick="enviarCorreo"
+            android:text="Gmail" />
+
+        <Button
+            android:id="@+id/btnMensaje"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#DCE397"
+            android:text="Mensaje" />
+
+        <Button
+            android:id="@+id/btnSalir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Salir" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
